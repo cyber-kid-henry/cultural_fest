@@ -694,53 +694,7 @@ a {
     background-position: -20px 0px;
   }
 }
-/*#loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #9a3767;
 
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-
-    z-index: 1001;
-}
-
-    #loader:before {
-        content: "";
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        right: 5px;
-        bottom: 5px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #fb736a;
-
-        -webkit-animation: spin 3s linear infinite; 
-        animation: spin 3s linear infinite; 
-    }
-
-    #loader:after {
-        content: "";
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        right: 15px;
-        bottom: 15px;
-        border-radius: 50%;
-        border: 3px solid transparent;
-        border-top-color: #f9d995;
-
-        -webkit-animation: spin 1.5s linear infinite;
-          animation: spin 1.5s linear infinite;
-    }*/
 
     @-webkit-keyframes spin {
         0%   { 
@@ -918,10 +872,10 @@ a {
 }
 #card4
 {
-	background-image: url("../images/bgs/bg4.png");
+	background-image: url("../images/bgs/bgm2.gif");
 }
 
-@media only screen and (max-width:1100px)
+/*@media only screen and (max-width:1100px)
 {
 	.card
 	{
@@ -934,15 +888,15 @@ a {
 	{
 		background-image: url("../images/bgs/mobile.png") ;
 	}
-}
+}*/
 
-/*images/bgs/mobile landscape*/
-@media only screen and (min-device-width: 480px) and (max-device-width: 825px) and (orientation: landscape) {
+/*../images/bgs/mobile landscape*/
+/*@media only screen and (min-device-width: 480px) and (max-device-width: 825px) and (orientation: landscape) {
     .card
     {
         background-image: url("../images/bgs/desktop.png");
     }
-}
+}*/
 
 #navlogo
 {
@@ -983,24 +937,24 @@ a {
 	}
 	#card2
 	{
-		background-image: url("../images/bgs/mhome2.png") !important;
+		background-image: url("../images/bgs/mobi1.0-gf.gif") !important;
 	}
 	#card3
 	{
-		background-image: url("../images/bgs/mhome3.png") !important;
+		background-image: url("../images/bgs/mobi2.0-gf.gif") !important;
 	}
 	#card4
 	{
-		background-image: url("../images/bgs/mhome4.png") !important;
+		background-image: url("../images/bgs/bgm.gif") !important;
 	}
 }
-/*@media screen and (max-aspect-ratio: 560/1000)
+@media screen and (max-aspect-ratio: 560/1000)
 {
 	.card
 	{
 		background-image: url("../images/bgs/mobile.png") !important;
 	}
-}*/
+}
 /*=====================================================================*/
 
 /*custom scroll bars*/
